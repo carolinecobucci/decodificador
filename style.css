@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f5fc;
+  font-family: "Inter";
+  height: 100vh;
+}
+
+#app {
+  display: flex;
+  justify-items: center;
+  gap: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  height: 100vh;
+  margin-right: 3rem;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 1.8rem;
+}
+
+.cripto-input {
+  width: 36rem;
+  margin-top: 5rem;
+  color: #0a3871;
+  font-family: "Inter";
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+  border: none;
+  background-color: transparent;
+  padding-inline: 0.5rem;
+  resize: none;
+  outline: none;
+}
+
+.cripto-input::placeholder {
+  color: #0a3871;
+}
+
+.info {
+  margin-bottom: 1rem;
+}
+
+.descript-text {
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
+  padding-top: 1rem;
+  padding-inline: 1rem;
+  padding-bottom: 2rem;
+  border-radius: 2rem;
+  background-color: #fff;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.without-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+  align-items: center;
+  display: none;
+}
+
+.with-text {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.descripto-input {
+  color: #495057;
+  font-family: "Inter";
+  font-size: 1rem;
+  line-height: 2rem;
+  border: none;
+  background-color: transparent;
+  padding-inline: 0.2rem;
+  resize: none;
+  outline: none;
+}
+
+.descripto-input::placeholder {
+  color: #495057;
+}
+
+.copy-btn {
+  display: flex;
+  justify-content: center;
+  width: 21rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid #0a3871;
+  background: transparent;
+  text-align: center;
+  color: #0a3871;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.copy-btn:hover {
+  background-color: #eff1fa;
+}
+
+.title {
+  color: #343a40;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+}
+
+.subtitle {
+  color: #495057;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.ilustration {
+  width: 13rem;
+}
+
+.info {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  color: #495057;
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.cripto-btn {
+  display: flex;
+  justify-content: center;
+  width: 21rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border: none;
+  border-radius: 1.5rem;
+  background-color: #0a3871;
+  text-align: center;
+  color: #fff;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+.cripto-btn:hover {
+  background-color: #072b61;
+}
+
+.descripto-btn {
+  display: flex;
+  justify-content: center;
+  width: 21rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid #0a3871;
+  background: transparent;
+  text-align: center;
+  color: #0a3871;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.descripto-btn:hover {
+  background-color: #eff1fa;
+}

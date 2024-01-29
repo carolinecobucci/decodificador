@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div><img src="./images/logo.svg" alt="logo alura" /></div>
+      <div class="text-container">
+        <textarea
+          cols="30"
+          rows="10"
+          class="cripto-input"
+          placeholder="Digite seu texto"
+        ></textarea>
+        <div class="bottom-container">
+          <div class="info">
+            <img src="./images/important-icon.svg" alt="important icon" />
+            <p>Apenas letras minúsculas e sem acento.</p>
+          </div>
+          <div class="buttons-container">
+            <button class="cripto-btn">Criptografar</button>
+            <button class="descripto-btn">Descriptografar</button>
+          </div>
+        </div>
+      </div>
+      <div class="descript-text">
+        <div class="without-text" display>
+          <img src="./images/illustration.svg" alt="ilustração" class="ilustration" />
+          <h2 class="title">Nenhuma mensagem encontrada.</h2>
+          <p class="subtitle">Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </div>
+        <div class="with-text">
+          <textarea cols="40" rows="16" class="descripto-input"></textarea>
+          <button class="copy-btn">Copiar</button>
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
