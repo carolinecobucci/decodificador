@@ -213,3 +213,99 @@ body {
 #descripto-btn:hover {
   background-color: #eff1fa;
 }
+
+@media only screen and (max-width: 1280px) {
+  body {
+    height: auto;
+  }
+
+  #app {
+    flex-direction: column;
+    margin-right: 0;
+    height: auto;
+  }
+
+  .input-container {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .ilustration {
+    display: none;
+  }
+
+  .title {
+    margin-top: 1rem;
+  }
+
+  .output-container {
+    margin-left: 0;
+  }
+
+  #output-text {
+    width: 40rem;
+    height: 20rem;
+  }
+
+  #copy-btn {
+    width: 40rem;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  body {
+    height: auto;
+  }
+
+  #app {
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0;
+    height: auto;
+  }
+
+  .input-container {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .buttons-container {
+    flex-direction: column;
+  }
+
+  .ilustration {
+    display: none;
+  }
+
+  .title {
+    font-size: 1rem;
+    margin-top: 1rem;
+    width: 14rem;
+    line-height: normal;
+  }
+
+  .subtitle {
+    font-size: 0.8rem;
+    line-height: normal;
+    width: 14rem;
+  }
+
+  .output-container {
+    margin-left: 0;
+  }
+
+  #input-text {
+    width: 20rem;
+  }
+
+  #output-text {
+    width: 16rem;
+    height: 20rem;
+  }
+
+  #copy-btn {
+    width: 17rem;
+  }
+}
