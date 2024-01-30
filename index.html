@@ -12,33 +12,28 @@
   <body>
     <div id="app">
       <div><img src="./images/logo.svg" alt="logo alura" /></div>
-      <div class="text-container">
-        <textarea
-          cols="30"
-          rows="10"
-          class="cripto-input"
-          placeholder="Digite seu texto"
-        ></textarea>
+      <div class="input-container">
+        <textarea cols="30" rows="10" id="input-text" placeholder="Digite seu texto"></textarea>
         <div class="bottom-container">
           <div class="info">
             <img src="./images/important-icon.svg" alt="important icon" />
             <p>Apenas letras minúsculas e sem acento.</p>
           </div>
           <div class="buttons-container">
-            <button class="cripto-btn">Criptografar</button>
-            <button class="descripto-btn">Descriptografar</button>
+            <button id="cripto-btn">Criptografar</button>
+            <button id="descripto-btn">Descriptografar</button>
           </div>
         </div>
       </div>
-      <div class="descript-text">
-        <div class="without-text" display>
+      <div class="output-container">
+        <div class="output-off">
           <img src="./images/illustration.svg" alt="ilustração" class="ilustration" />
           <h2 class="title">Nenhuma mensagem encontrada.</h2>
           <p class="subtitle">Digite um texto que você deseja criptografar ou descriptografar.</p>
         </div>
-        <div class="with-text">
-          <textarea cols="40" rows="16" class="descripto-input"></textarea>
-          <button class="copy-btn">Copiar</button>
+        <div class="output-on display">
+          <textarea cols="40" rows="16" id="output-text"></textarea>
+          <button id="copy-btn">Copiar</button>
         </div>
       </div>
     </div>
