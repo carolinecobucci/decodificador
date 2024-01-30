@@ -30,7 +30,7 @@ function decrypt(text, shift) {
 
 // Função para validar o texto de entrada
 function validateInputText(text) {
-  const regex = /^[a-z]+$/;
+  const regex = /^[a-z\s]+$/;
 
   // Verifica se há caracteres maiúsculos ou especiais na string
   if (!regex.test(text)) {
@@ -41,7 +41,7 @@ function validateInputText(text) {
   for (let i = 0; i < text.length; i++) {
     const charCode = text.charCodeAt(i);
     // Considera apenas caracteres ASCII que não são letras minúsculas
-    if (charCode < 97 || charCode > 122) {
+    if ((charCode < 97 || charCode > 122) && charCode !== 32) {
       return false;
     }
   }
